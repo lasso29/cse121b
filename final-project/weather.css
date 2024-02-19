@@ -1,0 +1,65 @@
+body{
+    background-image:url(./images/snow-winter-white-cold.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+#loading {
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+@media (max-width: 768px) {
+    body {
+        background-image: url(./images/potrait-background.jpg);
+    }
+    input {
+        width: 220px !important;
+    }
+    .locate {
+        padding-top: 50px !important;
+    }
+    #loading {
+        position: absolute;
+        left: 80px;
+        top: 220px;
+        z-index: 2;
+    }
+}
+input {
+    width: 500px;
+    border: none;
+    background: none;
+    font-size: 30px !important;
+    border-bottom:  5px solid #F39A70;
+    outline: none;
+    color: white;
+}
+input::placeholder {
+    color: white;
+}
+.locate {
+    padding-top: 350px;
+}
+.container2{
+ backdrop-filter: blur(8px);
+}
+.container3{
+    border-bottom: 4px solid #F39A70;
+}
+h5{
+    margin-bottom: 30px !important;
+    font-family: century gothic;
+    font-weight: 800 !important;
+}
+h3{
+    font-family: century gothic;
+    font-weight: 700 !important;
+    font-size: 35px !important;
+    text-transform: uppercase;
+}
+h6{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    font-family: century gothic;
+}
