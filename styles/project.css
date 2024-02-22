@@ -1,17 +1,17 @@
-body{
+/* body{
     background-image:url(/images/snow-winter-white-cold.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}  */
 #loading {
     position: absolute;
     left: 650px;
     top: 200px;
 }
 @media (max-width: 768px) {
-    body {
-        background-image: url(/images/potrait-background.jpg);
-    }
+    /* body {
+        background-image: url(/images/);
+    } */
     input {
         width: 220px !important;
     }
