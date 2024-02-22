@@ -1,5 +1,5 @@
 body{
-    background-image:url(./project-images/snow-winter-white-cold.jpg);
+    background-image:url(/images/snow-winter-white-cold.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 } 
@@ -10,7 +10,7 @@ body{
 }
 @media (max-width: 768px) {
     body {
-        background-image: url(./project-images/potrait-background.jpg);
+        background-image: url(/images/potrait-background.jpg);
     }
     input {
         width: 220px !important;
