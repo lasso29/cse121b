@@ -1,8 +1,9 @@
-/* body{
-    background-image:url(/images/snow-winter-white-cold.jpg);
+body{
+    overflow-x: none;
+    /* background-image:url(/images/snow-winter-white-cold.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-}  */
+    background-size: cover; */
+} 
 #loading {
     position: absolute;
     left: 650px;
@@ -24,6 +25,7 @@
         top: 220px;
         z-index: 2;
     }
+   
 }
 input {
     width: 500px;
